@@ -1,0 +1,46 @@
+#root {
+  max-width: 60%;
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.task-list {
+  margin-top: 1rem;
+}
+
+.task {
+  padding: .2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task button {
+  margin: .3rem;
+  border: none;
+  border-radius: 1rem;
+  padding: .5rem;
+  background-color: palevioletred;
+  color: white;
+}
+
+.task button:hover, .taskform button:hover {
+  background-color: pink;
+  color: black;
+}
+
+.taskform input[type=text] {
+  height: 2rem;
+  border: none;
+  background-color: #ededed;
+}
+
+.taskform input[type=submit] {
+  border: none;
+  padding: none;
+  height: 2rem;
+  background-color: palevioletred;
+  color: white;
+}
