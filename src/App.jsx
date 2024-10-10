@@ -53,6 +53,7 @@ function App() {
   return (
     <>
       <h2>Task list</h2>
+      <a href='https://github.com/yeenathan/COMP-3170-lab4'>Github Repo</a>
       <p>You have {taskList.length-completed} tasks remaining</p>
       <TaskForm handleAddInput={handleAddInput} handleAdd={handleAdd}></TaskForm>
       <div className="task-list">
