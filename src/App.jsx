@@ -42,9 +42,7 @@ function App() {
     setNewTask({id: Date.now(), name: e.target.value, status: 0});
   }
 
-  function handleAdd(e) {
-    e.preventDefault();
-    e.target[0].value = "";
+  function handleAdd() {
     if (!newTask.name) return;
     setTasks([...tasks, newTask]);
     setNewTask(emptyTask);
